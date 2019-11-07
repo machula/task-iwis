@@ -1,0 +1,38 @@
+{
+  "name": "test-task-iwis",
+  "version": "0.1.0",
+  "description": "ReactJS + Spring Data REST",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:machula//test-task-iwis.git"
+  },
+  "keywords": [
+    "rest",
+    "hateoas",
+    "spring",
+    "data",
+    "react"
+  ],
+  "author": "Yevhenii Machula",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/machula/test-task-iwis"
+  },
+  "homepage": "https://github.com/machula/test-task-iwis",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "rest": "^1.3.1"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.1.0"
+  }
+}
